@@ -1,0 +1,222 @@
+{
+  "ADME.Caco2_Wang": {
+    "subsample": 0.7,
+    "reg_lambda": 0.1,
+    "reg_alpha": 0.1,
+    "num_leaves": 207,
+    "min_child_samples": 5,
+    "max_depth": 15,
+    "learning_rate": 0.02,
+    "colsample_bytree": 0.8
+  },
+  "ADME.Lipophilicity_AstraZeneca": {
+    "subsample": 0.7,
+    "reg_lambda": 0.1,
+    "reg_alpha": 0,
+    "num_leaves": 239,
+    "min_child_samples": 25,
+    "max_depth": -1,
+    "learning_rate": 0.02,
+    "colsample_bytree": 0.6
+  },
+  "ADME.Solubility_AqSolDB": {
+    "subsample": 0.6,
+    "reg_lambda": 5,
+    "reg_alpha": 5,
+    "num_leaves": 191,
+    "min_child_samples": 5,
+    "max_depth": -1,
+    "learning_rate": 0.05,
+    "colsample_bytree": 0.6
+  },
+  "ADME.PPBR_AZ": {
+    "subsample": 0.7,
+    "reg_lambda": 5,
+    "reg_alpha": 0.1,
+    "num_leaves": 63,
+    "min_child_samples": 45,
+    "max_depth": 10,
+    "learning_rate": 0.01,
+    "colsample_bytree": 0.7
+  },
+  "ADME.VDss_Lombardo": {
+    "subsample": 0.7,
+    "reg_lambda": 5,
+    "reg_alpha": 5,
+    "num_leaves": 255,
+    "min_child_samples": 25,
+    "max_depth": 5,
+    "learning_rate": 0.1,
+    "colsample_bytree": 1.0
+  },
+  "ADME.Half_Life_Obach": {
+    "subsample": 1.0,
+    "reg_lambda": 5,
+    "reg_alpha": 0.1,
+    "num_leaves": 127,
+    "min_child_samples": 15,
+    "max_depth": 5,
+    "learning_rate": 0.05,
+    "colsample_bytree": 0.7
+  },
+  "ADME.Clearance_Hepatocyte_AZ": {
+    "subsample": 0.9,
+    "reg_lambda": 5,
+    "reg_alpha": 5,
+    "num_leaves": 207,
+    "min_child_samples": 55,
+    "max_depth": -1,
+    "learning_rate": 0.1,
+    "colsample_bytree": 0.7
+  },
+  "ADME.Clearance_Microsome_AZ": {
+    "subsample": 0.9,
+    "reg_lambda": 0,
+    "reg_alpha": 5,
+    "num_leaves": 143,
+    "min_child_samples": 85,
+    "max_depth": 5,
+    "learning_rate": 0.1,
+    "colsample_bytree": 0.9
+  },
+  "ADME.Bioavailability_Ma": {
+    "subsample": 0.6,
+    "reg_lambda": 1,
+    "reg_alpha": 1,
+    "num_leaves": 47,
+    "min_child_samples": 15,
+    "max_depth": 10,
+    "learning_rate": 0.1,
+    "colsample_bytree": 1.0
+  },
+  "ADME.HIA_Hou": {
+    "subsample": 0.7,
+    "reg_lambda": 0,
+    "reg_alpha": 0,
+    "num_leaves": 143,
+    "min_child_samples": 55,
+    "max_depth": 15,
+    "learning_rate": 0.1,
+    "colsample_bytree": 0.6
+  },
+  "ADME.Pgp_Broccatelli": {
+    "subsample": 0.7,
+    "reg_lambda": 0.1,
+    "reg_alpha": 0,
+    "num_leaves": 239,
+    "min_child_samples": 25,
+    "max_depth": -1,
+    "learning_rate": 0.02,
+    "colsample_bytree": 0.6
+  },
+  "ADME.BBB_Martins": {
+    "subsample": 1.0,
+    "reg_lambda": 0.1,
+    "reg_alpha": 0,
+    "num_leaves": 127,
+    "min_child_samples": 15,
+    "max_depth": 15,
+    "learning_rate": 0.05,
+    "colsample_bytree": 0.7
+  },
+  "ADME.CYP2C9_Veith": {
+    "subsample": 0.8,
+    "reg_lambda": 1,
+    "reg_alpha": 0,
+    "num_leaves": 31,
+    "min_child_samples": 35,
+    "max_depth": 10,
+    "learning_rate": 0.05,
+    "colsample_bytree": 0.6
+  },
+  "ADME.CYP2D6_Veith": {
+    "subsample": 0.7,
+    "reg_lambda": 0.1,
+    "reg_alpha": 0,
+    "num_leaves": 239,
+    "min_child_samples": 25,
+    "max_depth": -1,
+    "learning_rate": 0.02,
+    "colsample_bytree": 0.6
+  },
+  "ADME.CYP3A4_Veith": {
+    "subsample": 0.9,
+    "reg_lambda": 5,
+    "reg_alpha": 1,
+    "num_leaves": 223,
+    "min_child_samples": 55,
+    "max_depth": 10,
+    "learning_rate": 0.05,
+    "colsample_bytree": 1.0
+  },
+  "ADME.CYP2C9_Substrate_CarbonMangels": {
+    "subsample": 1.0,
+    "reg_lambda": 5,
+    "reg_alpha": 1,
+    "num_leaves": 95,
+    "min_child_samples": 45,
+    "max_depth": 10,
+    "learning_rate": 0.1,
+    "colsample_bytree": 0.6
+  },
+  "ADME.CYP2D6_Substrate_CarbonMangels": {
+    "subsample": 0.7,
+    "reg_lambda": 0.1,
+    "reg_alpha": 0.1,
+    "num_leaves": 207,
+    "min_child_samples": 5,
+    "max_depth": 15,
+    "learning_rate": 0.02,
+    "colsample_bytree": 0.8
+  },
+  "ADME.CYP3A4_Substrate_CarbonMangels": {
+    "subsample": 0.6,
+    "reg_lambda": 0,
+    "reg_alpha": 0.1,
+    "num_leaves": 15,
+    "min_child_samples": 25,
+    "max_depth": 5,
+    "learning_rate": 0.05,
+    "colsample_bytree": 0.9
+  },
+  "Tox.hERG": {
+    "subsample": 0.7,
+    "reg_lambda": 0.1,
+    "reg_alpha": 0.1,
+    "num_leaves": 207,
+    "min_child_samples": 5,
+    "max_depth": 15,
+    "learning_rate": 0.02,
+    "colsample_bytree": 0.8
+  },
+  "Tox.AMES": {
+    "subsample": 0.7,
+    "reg_lambda": 0.1,
+    "reg_alpha": 0.1,
+    "num_leaves": 207,
+    "min_child_samples": 5,
+    "max_depth": 15,
+    "learning_rate": 0.02,
+    "colsample_bytree": 0.8
+  },
+  "Tox.DILI": {
+    "subsample": 0.6,
+    "reg_lambda": 1,
+    "reg_alpha": 1,
+    "num_leaves": 47,
+    "min_child_samples": 15,
+    "max_depth": 10,
+    "learning_rate": 0.1,
+    "colsample_bytree": 1.0
+  },
+  "Tox.LD50_Zhu": {
+    "subsample": 0.7,
+    "reg_lambda": 0.1,
+    "reg_alpha": 0.1,
+    "num_leaves": 207,
+    "min_child_samples": 5,
+    "max_depth": 15,
+    "learning_rate": 0.02,
+    "colsample_bytree": 0.8
+  }
+}

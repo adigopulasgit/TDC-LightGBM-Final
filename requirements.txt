@@ -1,0 +1,9 @@
+pandas
+numpy
+rdkit-pypi
+lightgbm
+scikit-learn
+scipy
+jupyter
+optuna
+tdc

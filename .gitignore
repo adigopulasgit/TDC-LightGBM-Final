@@ -1,0 +1,11 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Jupyter cache
+.ipynb_checkpoints/
+
+# Logs
+*.log
+
+# Note: keep models/*.pkl tracked (do NOT ignore)

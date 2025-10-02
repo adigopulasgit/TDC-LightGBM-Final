@@ -1,0 +1,16 @@
+name: tdc_lgbm
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - pandas
+  - numpy
+  - scikit-learn
+  - lightgbm
+  - rdkit
+  - jupyter
+  - optuna
+  - pip
+  - pip:
+      - pytdc==0.3.7
